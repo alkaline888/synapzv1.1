@@ -1,6 +1,7 @@
 #!bin/bash
 set -e
 
+clear
 echo "Installing... This may take a few minutes"
 pkg update && pkg upgrade && pkg install git zip clang python
 wget https://raw.githubusercontent.com/alkaline888/synapzv1.1/refs/heads/main/synapz.py
