@@ -3,7 +3,7 @@ set -e
 
 echo "Installing... This may take a few minutes"
 pkg update && pkg upgrade && pkg install git zip clang python
-git clone https://github.com/alkaline888/synapzv1.1/blob/main/build.zip
+wget https://github.com/alkaline888/synapzv1.1/blob/main/build.zip
 mkdir synapz
 unzip build.zip
 mv synapz.py synapz/
