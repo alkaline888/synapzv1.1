@@ -8,7 +8,6 @@ wget https://github.com/alkaline888/synapzv1.1/blob/main/syn_utils.so
 mkdir synapz
 mv synapz.py synapz/
 mv syn_utils.so synapz/
-mv compileV1.sh synapz/
 cd synapz && python synapz.py
 echo "running synapzV1.1 global"
 echo "https://t.me/synapzzz join for purry forn!"
