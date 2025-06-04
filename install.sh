@@ -5,7 +5,7 @@ echo "Installing... This may take a few minutes"
 pkg update && pkg upgrade && pkg install git zip clang python
 wget https://github.com/alkaline888/synapzv1.1/blob/main/build.zip
 mkdir synapz
-unzip build.zip
+unzip build
 mv synapz.py synapz/
 mv syn_utils.so synapz/
 mv compileV1.sh synapz/
